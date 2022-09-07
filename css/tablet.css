@@ -1,0 +1,32 @@
+.mainHeader__linksSubContainer{
+    width: 40%;
+}
+.mainSectionContainer{
+    background-image: url("/assets/img/cover-medium.png");
+}
+
+/* Nav */
+
+.mainHeader__navLogo{
+    width: 60%;
+    max-width: 70rem;
+    height: 13rem;
+}
+.mainHeader__navSobreMi{
+    width: 30%;
+    height: 13rem;
+}
+.mainHeader__navSobreMiItem{
+    font-size: 2rem;
+}
+
+/* Main */
+
+.mainSection{
+    width: 90%;
+    max-width: 50rem;
+}
+.mainSection__title{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
