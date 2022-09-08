@@ -22,3 +22,20 @@
     font-size: 2.6rem;
     padding: 2rem;
 }
+
+/* Blogs Main */
+
+.newsSectionContainer{
+    padding:0 4rem;
+}
+.newsSection{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 37rem;
+    gap: 3rem;
+    padding-bottom: 3.5rem;
+}
+
+/* Blogs Main Articles */
+
