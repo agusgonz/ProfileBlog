@@ -153,13 +153,14 @@ html{
     padding: 1.5rem;
     background-color: var(--myblue);
     text-decoration: none;
+    color: var(--myblack);
 }
 .mainSection__button:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
 .mainSection__button:visited{
-    color: inherit;
+    color: var(--myblack);
     text-decoration: none;
 }
 
