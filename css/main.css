@@ -127,7 +127,7 @@ html{
     justify-content: center;
     align-items: center;
 
-    background-image: url("/assets/img/cover-small.png");
+    background-image: url("../assets/img/cover-small.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

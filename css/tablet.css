@@ -2,7 +2,7 @@
     width: 40%;
 }
 .mainSectionContainer{
-    background-image: url("/assets/img/cover-medium.png");
+    background-image: url("../assets/img/cover-medium.png");
 }
 
 /* Nav */
