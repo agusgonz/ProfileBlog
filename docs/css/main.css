@@ -219,6 +219,10 @@ html{
     color: var(--myblack);
     text-decoration: none;
 }
+.newsSection__button:hover, .latestBlogs__button:hover{
+    background-color: var(--myblue);
+    color: var(--white);
+}
 
 /* Blogs Main Articles */
 
