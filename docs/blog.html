@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My blog</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(min-width: 600px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width: 900px)" href="css/desktop.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header class="mainHeader">
+        <div class="mainHeader__linksContainer">
+            <ul class="mainHeader__linksSubContainer">
+                <li class="mainHeader__linksItem">
+                    <a aria-label="Facebook Link Account" class="mainHeader__linksSubItem"href="#">
+                        <span class="mainHeader__span mainHeader__span--facebook"></span>
+                    </a>
+                </li>
+                <li class="mainHeader__linksItem">
+                    <a aria-label="Twitter Link Account" class="mainHeader__linksSubItem"href="#">
+                        <span class="mainHeader__span mainHeader__span--twitter"></span>
+                    </a>
+                </li>
+                <li class="mainHeader__linksItem">
+                    <a aria-label="Instagram Link Account" class="mainHeader__linksSubItem"href="#">
+                        <span class="mainHeader__span mainHeader__span--instagram"></span>
+                    </a>
+                </li>
+                <li class="mainHeader__linksItem">
+                    <a aria-label="linkedIn Link Account" class="mainHeader__linksSubItem"href="#">
+                        <span class="mainHeader__span mainHeader__span--linkedIn"></span>
+                    </a>
+                </li>
+                <li class="mainHeader__linksItem">
+                    <a aria-label="Youtube Link Account" class="mainHeader__linksSubItem"href="#">
+                        <span class="mainHeader__span mainHeader__span--youtube"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav class="mainHeader__navContainer">
+            <div class="mainHeader__navLogo">
+                <a aria-label="Link to Main Page" class="mainHeader__navLogoItem" href="index.html"><span class="mainHeader__navLogoSpan mainHeader__navLogoSpan--black"></span></a>
+            </div>
+            <div class="mainHeader__navSobreMi">
+                <a class="mainHeader__navSobreMiItem mainHeader__navSobreMiItem--black" href="perfil.html">About me</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="mainBlog">
+            <figure class="newsSection__imgContainer blogImgContainer">
+                <img class="newsSection__img" src="assets/img_sample/BlogPostImg_1.png" alt="Old fashioned computer with retro shade">
+            </figure>
+            <section class="mainBlog__textContainer">
+                <p class="newsSectionContainer__title mainBlog__textContainer__newIntro">News</p>
+                <h1 class="newsSection__title mainBlog__textContainer__title">Blogpost Title</h1>
+                <p class="newsSection__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente earum deleniti maxime asperiores fuga commodi esse architecto ex exercitationem 
+                <br>
+                <br>
+                Repudiandae quos possimus quasi, illo, libero placeat qui accusantium consectetur.
+                Distinctio, voluptate nulla. Quod, delectus praesentium officia earum repellendus vitae voluptate hic alias aliquam, impedit, distinctio ut eveniet! Maxime numquam laboriosam vel quaerat enim explicabo fugiat iure, neque tenetur assumenda.
+                Eius ipsa, dignissimos iste adipisci quam ea placeat minus voluptatibus fugit, possimus eveniet, unde porro itaque dolor minima debitis non. Dicta fugiat, maiores sequi voluptatem consequatur sunt aliquam distinctio aliquid?
+                <br>
+                <br>
+                Iusto corporis hic maxime, iure voluptate numquam sequi error, illum ratione aut libero quod eligendi vitae ipsa, delectus ut commodi obcaecati quidem natus tempore nemo culpa nobis voluptas. Veniam, iusto?
+                Voluptate molestiae sequi vel consequatur quae optio eaque. Fugit odit ipsa atque assumenda accusamus! Veniam corrupti quisquam eius id, nemo aperiam iure. Quia quaerat perferendis laborum quod iste error repellat.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque alias, sed natus modi amet necessitatibus animi at consequatur ipsum error ut soluta velit accusamus, voluptates distinctio nisi odit voluptatum et!
+                Eveniet, provident assumenda. Ipsa recusandae fuga obcaecati voluptatem nam, omnis qui, aperiam esse aut odio natus accusantium necessitatibus illo nobis deserunt maxime laborum culpa. Vero saepe quaerat voluptate officia est?
+                Doloribus quidem nam unde quam! Quia temporibus placeat molestiae cum sapiente ipsa hic, modi sint culpa nobis maxime inventore laudantium nihil impedit maiores doloremque repellat atque fugiat odio! Laborum, neque.
+                </p>
+            </section>
+            <section class="contactSectContainer">
+                <div class="contactSect">                  
+                    <figure class="contactSect__imgContainer">
+                        <img class="contactSect__img" src="assets/icons/013-newsletter.svg" alt="">
+                    </figure>
+                    <div class="contactSect__textContainer">
+                        <p class="contactSect__title">Contact</p>
+                        <p class="contactSect__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>                        
+                    </div>
+                </div>
+                <div class="contactSect">                  
+                    <figure class="contactSect__imgContainer">
+                        <img class="contactSect__img" src="assets/icons/006-like.svg" alt="">
+                    </figure>
+                    <div class="contactSect__textContainer">
+                        <p class="contactSect__title">Contact</p>
+                        <p class="contactSect__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="mainFooter">
+        <div class="mainFooter__sub1"></div>
+        <div class="mainFooter__sub2">
+            <p class="mainFooter__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </footer>
 </body>
 </html>

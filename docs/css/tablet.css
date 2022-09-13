@@ -60,3 +60,15 @@
 .latestBlogs{
     padding-top: 2rem;
 }
+
+/* Blog Main */
+
+.mainBlog{
+    margin-top: 0;
+}
+.blogImgContainer{
+    height: 30rem;
+}
+.contactSect{
+    margin: 0rem 1rem ;
+}

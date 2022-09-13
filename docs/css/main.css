@@ -295,5 +295,76 @@ html{
     color: var(--almost-white);
     font-size: 1.5rem;
     font-weight: 200;
-    
+}
+
+/* Blog Main */
+
+.mainBlog{
+    margin-top: 1rem;
+}
+.blogImgContainer{
+    width: 90%;
+    max-width: 100rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+.mainBlog__textContainer{
+    width: 80%;
+    max-width: 50rem;
+    margin: 2rem auto 3.5rem auto;
+}   
+.mainBlog__textContainer__newIntro{
+    border-bottom: 1px solid var(--mygrey);
+}
+.mainBlog__textContainer__title{
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+.contactSectContainer{
+    width: 100vw;
+    min-height: 15rem;
+    /* max-height: 24rem;  */
+    background-color: var(--almost-white);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.contactSect{
+    width: 30rem;
+    height: 11rem;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 1fr;
+
+    gap: 1.3rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.contactSect__img{
+    width: 100%;
+    height: 100%;
+}
+.contactSect__textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contactSect__title{
+    width: 37%;
+    font-size: 2rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid;
+}
+.contactSect__text{
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+.contactSect__imgContainer:hover{
+    transform: scale(1.1);
 }

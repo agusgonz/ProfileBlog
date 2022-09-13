@@ -37,5 +37,10 @@
     padding-bottom: 3.5rem;
 }
 
-/* Blogs Main Articles */
+/* Blog Main */
+
+.blogImgContainer{
+    height: 40rem;
+}
+
 
