@@ -43,4 +43,10 @@
     height: 40rem;
 }
 
+/* About Me Main */
 
+.mainProfile{
+    padding: 2rem 4rem;
+    gap: 5rem;
+
+}

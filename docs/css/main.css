@@ -226,23 +226,23 @@ html{
 
 /* Blogs Main Articles */
 
-.latestBlogsContainer{
+.latestBlogsContainer , .profileProjectsSect{
     margin-top: 2rem;
 } 
-.latestBlogsContainer__title{
+.latestBlogsContainer__title, .profileProjectsSect__title {
     font-size: 2rem;
     margin: 2rem;
     text-align: center;
     color: var(--myblack);
 }
-.latestBlogs{
+.latestBlogs , .profileProjectsContainer{
     border-top: 1px solid var(--mygrey);
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 40rem));
     grid-auto-rows: 42rem;
 }
-.latestBlogs__article{
+.latestBlogs__article , .profileProjects{
     height: 100%;
     padding: 1.5rem;
     display: flex;
@@ -265,12 +265,12 @@ html{
     flex-direction: column;
     justify-content: space-around;
 }
-.latestBlogs__title{
+.latestBlogs__title , .profileProjects__title{
     font-size: 2.4rem;
     color: var(--myblack);
     
 }
-.latestBlogs__text{
+.latestBlogs__text , .profileProjects__text{
     font-size: 1.3rem;
     color: var(--myblack);
     line-height: 1.8rem;
@@ -371,4 +371,43 @@ html{
 }
 .contactSect__imgContainer:hover{
     transform: scale(1.1);
+}
+
+/* About Me Main */
+
+.profileProjectsSect{
+    margin-bottom: 2rem;
+}
+.mainProfile{
+    width: 100vw;
+    min-height: 35rem;
+    height: auto;
+    padding: 2rem 2rem;
+
+   display: grid;
+   grid-auto-columns: minmax(25rem, 35rem);
+   grid-template-rows: minmax(10rem , auto) minmax(10rem , auto);
+
+   justify-content: center;
+   align-content: center;
+
+    background-color: var(--almost-white);
+}
+
+.mainProfile__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainProfile__textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mainProfile__text{
+    font-size: 1.5rem;
+}
+.profileProjectsContainer{
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 35rem));
+    grid-auto-rows: 25rem;
 }
